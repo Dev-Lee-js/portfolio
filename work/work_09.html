@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="theme-color" content="#fce253">
+	<meta name="msapplication-navbutton-color" content="#fce253">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fce253">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.7, shrink-to-fit=yes, user-scalable=yes" />
+
+	<title>이종석 포트폴리오</title>
+
+	<link rel="stylesheet" href="../css/main.css" />
+	<link rel="shortcut icon" href="../images/favicon.png" />
+
+	<style>
+
+		.circle {
+			position: absolute;
+			border: 3px solid transparent;
+			border-top-color: #ffca38;
+			border-radius: 50%;
+			-webkit-animation: rotate linear infinite;
+			animation: rotate linear infinite
+		}
+
+		.circle.one {
+			height: 50px;
+			width: 50px;
+			left: 50px;
+			top: 50px;
+			-webkit-animation-duration: .85s;
+			animation-duration: .85s
+		}
+
+		.circle.two {
+			height: 75px;
+			width: 75px;
+			top: 38px;
+			left: 38px;
+			-webkit-animation-duration: .95s;
+			animation-duration: .95s
+		}
+
+		.circle.three {
+			height: 100px;
+			width: 100px;
+			top: 25px;
+			left: 25px;
+			-webkit-animation-duration: 1.05s;
+			animation-duration: 1.05s
+		}
+
+		@-webkit-keyframes rotate {
+			from {
+				-webkit-transform: rotateZ(360deg);
+				transform: rotateZ(360deg)
+			}
+			to {
+				-webkit-transform: rotateZ(0);
+				transform: rotateZ(0)
+			}
+		}
+
+		@keyframes rotate {
+			from {
+				-webkit-transform: rotateZ(360deg);
+				transform: rotateZ(360deg)
+			}
+			to {
+				-webkit-transform: rotateZ(0);
+				transform: rotateZ(0)
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="wrap work work_09">
+
+		<header class="header"></header>
+
+		<div class="ajaxArea">
+			<section class="hero topArea">
+				<div class="inner">
+					<h2 class="hero_title">
+					Gabia
+                    <i class="hero_title_sm">
+                        <span class="text_hide_m">featured</span> work #3
+                    </i>
+                </h2>
+					<div class="hero_top">
+						<ul class="info_heading info_client">
+							<li class="subject">
+								#개요
+							</li>
+							<p>
+								가비아 사이트를 구현하였습니다
+							</p>
+							<li class="subject">
+								#특징
+							</li>
+							<p>
+								반응형 제작
+							</p>
+							<p>
+								배너 및 이미지 좌우 슬라이드 구현
+							</p>
+							<li class="subject">
+								#활용 라이브러리 & API
+							</li>
+							<p>
+								HTML, CSS, JAVASCRIPT
+							</p>	
+						</ul>
+					</div>
+					<div class="hero_center">
+						<a href="https://dev-lee-js.github.io/gabia-clone/" target="_blank" class="hero_link btn_effect"><span>VIEW SITE</span></a>
+					</div>
+					<div class="hero_bottom">
+						<p class="hero_page"><span class="text_hide">Current Page:</span><i class="hash">&#x23;</i><span class="page_current">03</span></p>
+					</div>
+				</div>
+				<!-- //.inner -->
+			</section>
+
+		</div>
+		<!-- //.ajaxArea -->
+
+		<!-- //.wrap -->
+	</div>
+	<footer class="footer"></footer>
+
+	<!--
+	<script src="../js/vendor.js"></script>
+	<script src="../js/all.min.js"></script>
+-->
+
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="../js/lazyload.min.js"></script>
+	<script src="../js/swiper.min.js"></script>
+	<script src="../js/all.js"></script>
+
+
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 'auto',
+			spaceBetween: 30,
+			centeredSlides: true,
+			grabCursor: true,
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+
+			breakpoints: {
+				640: {
+					slidesPerView: 'auto',
+					spaceBetween: 10
+				},
+			}
+
+		});
+
+		$(".lazyload").lazyload();
+	</script>
+</body>
+
+</html>

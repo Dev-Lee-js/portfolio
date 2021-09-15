@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>이종석 포트폴리오</title>
+
+	<link rel="stylesheet" href="css/main.css" />
+
+	<style>
+
+		@-webkit-keyframes rotate {
+			from {
+				-webkit-transform: rotateZ(360deg);
+				transform: rotateZ(360deg)
+			}
+			to {
+				-webkit-transform: rotateZ(0);
+				transform: rotateZ(0)
+			}
+		}
+
+		@keyframes rotate {
+			from {
+				-webkit-transform: rotateZ(360deg);
+				transform: rotateZ(360deg)
+			}
+			to {
+				-webkit-transform: rotateZ(0);
+				transform: rotateZ(0)
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<div class="wrap home">
+
+		<header class="header"></header>
+
+		<section class="visual topArea">
+
+			<div class="visual_elem visual_fog02"></div>
+			<div class="visual_elem visual_tree01"></div>
+			<div class="visual_elem visual_tree02"></div>
+			<div class="visual_elem visual_tree03"></div>
+			<div class="visual_elem visual_fog01"></div>
+			<div class="visual_elem visual_tree04"></div>
+
+			<div class="inner">
+				<h2 class="visual_title">
+            <span class="title_text"></span>
+						<div id="logo">
+							<span>Lee.JS</span>
+						</div>
+        </h2>
+
+				<a href="#" class="scroll_text">
+            scroll down
+        </a>
+			</div>
+		</section>
+
+		<div class="contents">
+			<article class="article_hello">
+				<div class="inner">
+					<h2 class="title" data-ani="Hello.">
+               Hello.
+            </h2>
+					<i class="title_sm" data-ani="title_sm">THIS IS LEE JONG SEOK</i>
+					<div class="hello_text">
+						<img src="images/jongseok.png" alt="일러스트 이미지">
+						<p class="ly_mt_sm">
+							안녕하세요 신입 웹퍼블리셔 개발자 이종석입니다.
+						</p>
+					</div>
+					<div class="more">
+						<a href="about.html" class="more_link">
+                    <span class="more_link_text">웹 퍼블리셔 '이종석'에 대해 더 궁금하신가요?</span>
+                    <span class="icon_circle"></span>
+                </a>
+					</div>
+				</div>
+				<!-- //inner -->
+			</article>
+
+			<article class="article_work">
+				<a id="work"></a>
+				<div class="inner">
+					<h2 class="title" data-ani="Work.">
+               Work.
+            </h2>
+					<i class="title_sm" data-ani="title_sm">Featured Work</i>
+					<div class="work_wrap">
+						<div class="work_list" data-columns="3"></div>
+					</div>
+					<!-- //work_wrap -->
+				</div>
+				<!-- //inner -->
+			</article>
+
+		</div>
+
+	</div>
+	<!-- //.wrap -->
+
+
+	<footer class="footer"></footer>
+
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="js/salvattore.min.js"></script>
+	<script src="js/all.js"></script>
+	<script src="js/home.js"></script>
+
+</body>
+
+</html>
