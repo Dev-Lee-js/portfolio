@@ -192,8 +192,8 @@ $(function() {
       },
       "list_06": {
         'number': twolength(11),
-        'title': 'LOCK & LOCK',
-        'desc': '락앤락 사이트 클론 코딩'
+        'title': 'To Do List',
+        'desc': '할일 목록 저장'
       },
       "list_07": {
         'number': twolength(12),
