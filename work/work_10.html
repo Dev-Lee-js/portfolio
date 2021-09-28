@@ -18,6 +18,8 @@
 
 	<link rel="stylesheet" href="../css/main.css" />
 	<link rel="shortcut icon" href="../images/favicon.png" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 	<style>
 
@@ -149,12 +151,12 @@
 						</div>
 						<div class="detail_main">
 							<ul class="shots">
-								<li class="shots_item">
+								<li data-aos="fade-up" data-aos-duration="2200" class="shots_item">
 									<a href="#none" class="item_link">
                                      <img class="shots_item_img " src="../images/todoList-1.gif" alt="트위터 프로젝트 GIF이미지"/>
                                  </a>
 								</li>
-								<li class="shots_item">
+								<li data-aos="fade-up" data-aos-duration="2200" class="shots_item">
 									<a href="#none" class="item_link">
                                      <img class="shots_item_img " src="../images/todoList-2.gif"" alt="트위터 프로젝트 GIF이미지"/>
                                  </a>
@@ -191,32 +193,12 @@
 -->
 
 	<script src="https://code.jquery.com/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-	<script src="../js/lazyload.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>	
 	<script src="../js/swiper.min.js"></script>
 	<script src="../js/all.js"></script>
-
-
 	<script>
-		var swiper = new Swiper('.swiper-container', {
-			slidesPerView: 'auto',
-			spaceBetween: 30,
-			centeredSlides: true,
-			grabCursor: true,
-			nextButton: '.swiper-button-next',
-			prevButton: '.swiper-button-prev',
-
-			breakpoints: {
-				640: {
-					slidesPerView: 'auto',
-					spaceBetween: 10
-				},
-			}
-
-		});
-
-		$(".lazyload").lazyload();
-	</script>
+		AOS.init();
+	  </script>
 </body>
 
 </html>
