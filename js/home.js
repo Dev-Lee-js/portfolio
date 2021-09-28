@@ -172,13 +172,13 @@ $(function() {
       },
       "list_02": {
         'number': twolength(7),
-        'title': 'MOVIE APP',
-        'desc': '영화 소개 사이트'
+        'title': 'Gabia',
+        'desc': '가비아 사이트 코딩'
       },
       "list_03": {
         'number': twolength(8),
-        'title': 'Gabia',
-        'desc': '가비아 사이트 코딩'
+        'title': 'To Do List',
+        'desc': '할 일 관리 웹 어플리케이션'
       },
       "list_04": {
         'number': twolength(9),
