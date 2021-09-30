@@ -33,7 +33,7 @@ $(function() {
     html += ' <span class="contact_heading">PHONE</span>';
     html += ' <span class="contact_info">010.9480.8651</span> ';
     html += ' </a> ';
-    html += ' <a href="https://github.com/jongseok-98" class="contact_link"> ';
+    html += ' <a href="https://github.com/Dev-Lee-js" class="contact_link"> ';
     html += ' <span class="contact_heading">GITHUB</span>  ';
     html += ' <span class="contact_info">jongseok</span> ';
     html += ' </a> ';
