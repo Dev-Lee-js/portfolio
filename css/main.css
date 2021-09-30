@@ -2405,7 +2405,7 @@ html, body {
 
 .article_detail .detail_main .shots .shots_item {
   display: block;
-  width: 100%;
+  width: 75%;
   margin: 12% auto 0;
   box-shadow: 0px 10px 30px rgba(54, 49, 49, 0.15)
 }
@@ -2422,7 +2422,7 @@ html, body {
 .article_detail .detail_main .shots .shots_item .shots_item_img {
   display: block;
   width: 100%;
-  height: auto
+  height: auto;
 }
 
 .article_detail .detail_main .shots .shots_item.mobile {

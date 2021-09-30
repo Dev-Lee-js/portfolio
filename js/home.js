@@ -192,8 +192,8 @@ $(function() {
       },
       "list_06": {
         'number': twolength(11),
-        'title': 'To Do List',
-        'desc': '할일 목록 저장'
+        'title': 'CD Player',
+        'desc': '음악을 감상 할 수 있는 웹 어플리케이션'
       },
       "list_07": {
         'number': twolength(12),
