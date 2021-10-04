@@ -182,8 +182,8 @@ $(function() {
       },
       "list_04": {
         'number': twolength(9),
-        'title': 'KAKAO TALK',
-        'desc': '카카오톡 클론 코딩'
+        'title': 'Open Talk',
+        'desc': '오픈 채팅 어플리케이션'
       },
       "list_05": {
         'number': twolength(10),
