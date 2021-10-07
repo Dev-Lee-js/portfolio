@@ -2003,6 +2003,14 @@ html, body {
   font-weight: 300;
   letter-spacing: 0.05rem
 }
+.hero .hero_top .info_heading span{
+  padding: .2rem .4rem;
+  font-size: 90%;
+  color: #000;    
+  background-color: #f8f9fa;
+  border-radius: .25rem;
+  margin-right: 5px;
+}
 .hero .hero_top .info_heading .subject{
   margin-bottom: 20px;
   margin-top: 20px;
