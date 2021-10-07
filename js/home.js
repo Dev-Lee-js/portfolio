@@ -167,8 +167,8 @@ $(function() {
     var obj = {
       "list_01": {
         'number': twolength(6),
-        'title': 'Twitter',
-        'desc': '트위터 클론 코딩'
+        'title': 'Twitter-Clone',
+        'desc': '트위터 SNS 어플리케이션'
       },
       "list_02": {
         'number': twolength(7),

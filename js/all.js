@@ -5,41 +5,38 @@ $(function() {
   // GNB 생성 함수
   function gnbMaker() {
 
-    var html = '';
-
-    html += ' <div class="fixed"> ';
-    html += ' <h1 class="logo"> ';
-    html += ' </h1> ';
-    html += ' <div class="menu" role="button" tabindex="0"> ';
-    html += ' <div class="menu_burger" tabindex="0"> ';
-    html += ' <div class="line line_01"></div> ';
-    html += ' <div class="line line_02"></div> ';
-    html += ' <div class="line line_03"></div> ';
-    html += ' </div> ';
-    html += ' </div> ';
-    html += ' </div> ';
-    html += ' <nav class="gnb" style="display:none"> ';
-    html += ' <h2 class="text_hide">Navigation</h2> ';
-    html += ' <ul class="nav"> ';
-    html += ' <li class="menu_item"><a href="https://dev-lee-js.github.io/portfolio/index.html">HOME.</a></li> ';
-    html += ' <li class="menu_item menu_about"><a href="https://dev-lee-js.github.io/portfolio/about.html">ABOUT.</a></li> ';
-    html += ' </ul> ';
-    html += ' <div class="contact"> ';
-    html += ' <a href="mailto:whdtlr202@gmail.com" class="contact_link">  ';
-    html += ' <span class="contact_heading">MAIL</span>    ';
-    html += ' <span class="contact_info">whdtlr202@gmail.com</span> ';
-    html += ' </a> ';
-    html += ' <a href="tel:01094808651" class="contact_link"> ';
-    html += ' <span class="contact_heading">PHONE</span>';
-    html += ' <span class="contact_info">010.9480.8651</span> ';
-    html += ' </a> ';
-    html += ' <a href="https://github.com/Dev-Lee-js" class="contact_link"> ';
-    html += ' <span class="contact_heading">GITHUB</span>  ';
-    html += ' <span class="contact_info">jongseok</span> ';
-    html += ' </a> ';
-    html += ' </div> ';
-    html += ' </nav> ';
-
+    var html = `<div class="fixed">  
+                <h1 class="logo">  
+                </h1>  
+                <div class="menu" role="button" tabindex="0">  
+                <div class="menu_burger" tabindex="0">  
+                <div class="line line_01"></div>  
+                <div class="line line_02"></div>  
+                <div class="line line_03"></div>  
+                </div>  
+                </div>  
+                </div>  
+                <nav class="gnb" style="display:none">  
+                <h2 class="text_hide">Navigation</h2>  
+                <ul class="nav">  
+                <li class="menu_item"><a href="https://dev-lee-js.github.io/portfolio/index">HOME.</a></li>  
+                <li class="menu_item menu_about"><a href="https://dev-lee-js.github.io/portfolio/about">ABOUT.</a></li>  
+                </ul>  
+                <div class="contact">  
+                <a href="mailto:whdtlr202@gmail.com" class="contact_link">   
+                <span class="contact_heading">MAIL</span>     
+                <span class="contact_info">whdtlr202@gmail.com</span>  
+                </a>  
+                <a href="tel:01094808651" class="contact_link">  
+                <span class="contact_heading">PHONE</span> 
+                <span class="contact_info">010.9480.8651</span>  
+                </a>  
+                <a href="https://github.com/Dev-Lee-js" class="contact_link">  
+                <span class="contact_heading">GITHUB</span>   
+                <span class="contact_info">jongseok</span>  
+                </a>  
+                </div>  
+                </nav>`
 
     $(".header").append(html);
   }
@@ -47,20 +44,18 @@ $(function() {
 
   // Footer 생성 함수
   function footerMaker() {
-    var html = '';
-
-    html += ' <h2 class="title footer_title">Let&acute;s start right Now!</h2> ';
-    html += ' <p class="footer_text">작업 준비 완료됐습니다. 편하실 때 연락 주세요!</p> ';
-    html += ' <address class="footer_address"> ';
-    html += ' <a href="mailto:whdtlr202@gmail.com" class="footer_link link_mail"> ';
-    html += ' <span class="icon_circle"></span> ';
-    html += ' <span class="footer_link_text"></span> ';
-    html += ' </a> ';
-    html += ' <a href="tel:01094808651" class="footer_link link_phone"> ';
-    html += ' <span class="icon_circle"></span> ';
-    html += ' <span class="footer_link_text"></span> ';
-    html += ' </a> ';
-    html += ' </address> ';
+    var html = `<h2 class="title footer_title">Let&acute;s start right Now!</h2>  
+                <p class="footer_text">작업 준비 완료됐습니다. 편하실 때 연락 주세요!</p>  
+                <address class="footer_address">  
+                <a href="mailto:whdtlr202@gmail.com" class="footer_link link_mail">  
+                <span class="icon_circle"></span>  
+                <span class="footer_link_text"></span>  
+                </a>  
+                <a href="tel:01094808651" class="footer_link link_phone">  
+                <span class="icon_circle"></span>  
+                <span class="footer_link_text"></span>  
+                </a>  
+                </address>`  
 
     $(".footer").append(html);
 
