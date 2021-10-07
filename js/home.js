@@ -182,8 +182,8 @@ $(function() {
       },
       "list_04": {
         'number': twolength(9),
-        'title': 'Open Talk',
-        'desc': '오픈 채팅 어플리케이션'
+        'title': 'Kakao Talk',
+        'desc': '채팅 어플리케이션'
       },
       "list_05": {
         'number': twolength(10),
