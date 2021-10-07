@@ -192,7 +192,7 @@ $(function() {
       },
       "list_06": {
         'number': twolength(11),
-        'title': 'CD Player',
+        'title': 'MP3 Player',
         'desc': '음악을 감상 할 수 있는 웹 어플리케이션'
       }, 
       "list_07": {
