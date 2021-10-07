@@ -194,12 +194,12 @@ $(function() {
         'number': twolength(11),
         'title': 'CD Player',
         'desc': '음악을 감상 할 수 있는 웹 어플리케이션'
-      },
+      }, 
       "list_07": {
         'number': twolength(12),
-        'title': 'SK Hynix',
-        'desc': 'SK 하이닉스 사이트 클론 코딩'
-      }
+        'title': 'Movie App',
+        'desc': '리액트로 개발한 영화 어플리케이션'
+      },      
     };
 
 
